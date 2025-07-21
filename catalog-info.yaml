@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: python-api-service
+  title: python-api-service
+  description: &quot;Build a Python FastAPI microservice with MongoDB, JWT auth, and Docker for inventory management&quot;
+  annotations:
+    github.com/project-slug: 
+    backstage.io/managed-by-location: file:./catalog-info.yaml
+    jira.com/project-key: SCRUM
+  tags:
+    - Java
+    - Spring Boot
+spec:
+  type: service
+  owner: backstage-user
+  lifecycle: experimental
+  system: microservices-platform
